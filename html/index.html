@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG Esperança</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="cabecalho-conteudo">
+            <h1>ONG Esperança</h1>
+
+            <button class="menu-toggle"
+                    type="button"
+                    aria-label="Abrir menu"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <button id="botao-tema" class="botao-tema" type="button"
+                    aria-label="Ativar modo escuro" aria-pressed="false">
+                ◐ Tema escuro
+            </button>
+
+            <nav aria-label="Navegação principal">
+                <ul class="menu">
+                    <li><a href="#inicio" data-rota="inicio">Início</a></li>
+                    <li><a href="#projetos" data-rota="projetos">Projetos</a></li>
+                    <li><a href="#cadastro" data-rota="cadastro">Cadastro</a></li>
+                    <li><a href="#sobre" data-rota="sobre">Sobre</a></li>
+                    <li><a href="#contato" data-rota="contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo-app"></main>
+
+    <footer>
+        <div class="rodape-conteudo">
+            <p>&copy; 2026 ONG Esperança. Todos os direitos reservados.</p>
+            <p>Solidariedade hoje, um futuro melhor amanhã.</p>
+        </div>
+    </footer>
+
+    <!-- Biblioteca SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- JavaScript principal do projeto -->
+    <script type="module" src="../js/main.js"></script>
+</body>
+</html>

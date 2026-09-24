@@ -1,0 +1,10 @@
+Comparação das imagens usadas no projeto
+
+doacoes.webp: original ~18.2 KB -> WebP 10.5 KB
+hero.webp: original ~47.3 KB -> WebP 18.0 KB
+animais.webp: original ~13.6 KB -> WebP 7.0 KB
+images.webp: original ~71.1 KB -> WebP 69.4 KB
+voluntariado.webp: original ~13.8 KB -> WebP 6.6 KB
+educacao.webp: original ~12.9 KB -> WebP 6.2 KB
+
+TOTAL: ~176.9 KB -> 117.8 KB | redução aproximada 33.4%
